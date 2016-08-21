@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#lx{
+	position:relative;
+}
+#lx .slideShow{
+	width:100%;
+	height:525px;  /*其实就是图片的高度*/
+	position: relative;
+	overflow: hidden; /*此处需要将溢出框架的图片部分隐藏*/	
+}
+#lx .slideShow ul{
+	height:525px;
+	width: 7000px;
+	position: relative;  /*此处需注意relative : 对象不可层叠，但将依据left，right，top，bottom等属性在正常文档流中偏移位置，如果没有这个属性，图片将不可左右移动*/
+}
+#lx .slideShow ul li{
+	float: left;  /*让四张图片左浮动，形成并排的横着布局，方便点击按钮时的左移动*/
+	width:1425px;
+	height:525px;
+}
+#lx .slideShow ul li img{
+	height:525px;
+	width:100%;
+}
+#lx .slideShow .left{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: 0px -150px;
+	height:67px;
+	width:35px;
+	position:absolute;
+	left:54px;
+	top:45%;
+}
+#lx .slideShow .right{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: 0px -72px;
+	height:67px;
+	width:35px;
+	position:absolute;
+	right:54px;
+	top:45%;	
+}
+#lx .slideShow .left:hover,#lx .slideShow .right:hover{
+	opacity: .5;
+	filter: alpha(opacity=70);
+	cursor:pointer;
+}
+
+#lx .showNav ul{
+	height:19px;
+	position:absolute;
+	bottom:5px;
+	width:104px;
+	left:46%;
+}
+#lx .showNav ul li{
+	float:left;
+	height:14px;
+	width:26px;
+	text-align: center;
+}
+#lx .showNav ul li button{
+	width: 14px;
+	height: 14px;
+	border: solid 2px #7b7b7b;
+	border-radius: 50%;
+	background-color: #7b7b7b;
+	outline: none;
+	text-indent:-9999px;
+}
+#lx .showNav ul li button:hover{
+	border: solid 2px #2aad6f;
+  	background-color: #fff;
+  	height: 14px;
+	cursor:pointer;	
+}
+#lx .showNav .active button{
+	border: solid 2px #2aad6f;
+  	background-color: #fff;
+  	height: 14px;
+	cursor:pointer;	
+}
+
+
+#main .mainauto{
+	width:1180px;
+	margin:100px auto;
+	
+}
+
+#main .mainauto .left{
+	float:left;
+}
+
+#main .mainauto .right{
+	float:left;
+	margin-left:60px;
+}
+#nr{
+	height:375px;
+}
+#nr .left{
+	width:393px;
+	float:left;
+}
+#nr h2{
+	color:#1f8657;
+}
+#nr h3 a{
+	color:#000;
+}
+#nr .mid{
+	width:393px;
+	float:left;
+}
+#nr .mid .midimg .midtitle{
+	margin-top:20px;
+}
+#nr .mid .midimg .title img{
+	height:68px;
+	width:68px;
+}
+
+#nr .mid .midimg .title a{
+	color:#1f8657;
+}
+#nr .mid .midimg .title p{
+	margin:8px 0 0 0;
+}
+#nr .mid .midimg .title .solida{
+	float:left;
+}
+#nr .mid .midimg .title .solid{
+	border-bottom: 1px solid #cccccc;
+	float:left;
+	margin-left:15px;
+	width:270px;
+	height:75px;
+}
+#nr .right{
+	width:330px;
+	float:left;
+}
+#mainbottom{
+	background:#eee;
+	height:373px;
+	width:100%;
+	padding-top:72px;
+}
+#mainbottom .hz{
+	width:1200px;
+	height:300px;
+	margin:0 auto;
+}
+#mainbottom .hz a{
+	display:block;
+	height:300px;
+	width:300px;
+	color:#fff;
+	padding:15px 0 0 90px;
+	font-size:18px;
+}
+
+#mainbottom .hz a h3{
+	padding-left:10px;
+}
+#mainbottom .hz .bg{
+	height:300px;
+	width:300px;
+}
+#mainbottom .hz .bg1{	
+	background:url(../images/bg1.jpg) no-repeat;
+	background-size:contain;
+	float:left;
+}
+#mainbottom .hz .bg2{	
+	background:url(../images/bg2.jpg) no-repeat;
+	background-size:contain;
+	float:left;	
+}
+#mainbottom .hz .bg3{	
+	background:url(../images/bg3.jpg) no-repeat;
+	background-size:contain;
+	float:left;	
+}
+#mainbottom .hz .bg4{	
+	background:url(../images/bg4.jpg) no-repeat;
+	background-size:contain;
+	float:left;
+}
+#mainbottom .hz .bg .icon{
+	height: 122px;
+	width: 122px;
+	background: #2aad6f;
+	border-radius: 50%;
+
+}
+#mainbottom .hz .bg1:hover .icon,#mainbottom .hz .bg2:hover .icon,#mainbottom .hz .bg3:hover .icon,#mainbottom .hz .bg4:hover .icon{
+	background:#fff;
+}
+#mainbottom .hz .bg1:hover .icon .icon1{
+	background-position:-82px -159px;
+}
+#mainbottom .hz .bg2:hover .icon .icon2{
+	background-position:-82px -192px;
+}
+#mainbottom .hz .bg3:hover .icon .icon3{
+	background-position:-82px -234px;
+}
+#mainbottom .hz .bg4:hover .icon .icon4{
+	background-position:-82px -279px;
+}
+#mainbottom .hz .bg .icon .icon1{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position:-82px 0;
+	height:25px;
+	width:35px;
+	margin:48.5px 43.5px;
+	display:block;
+	float:left;
+}
+#mainbottom .hz .bg .icon .icon2{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position:-82px -33px;
+	height:35px;
+	width:35px;
+	margin:43.5px 43.5px;
+	display:block;
+	float:left;
+}
+#mainbottom .hz .bg .icon .icon3{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position:-82px -75px;
+	height:35px;
+	width:35px;
+	margin:43.5px 43.5px;
+	display:block;
+	float:left;
+}
+#mainbottom .hz .bg .icon .icon4{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position:-82px -120px;
+	height:30px;
+	width:35px;
+	margin:46px 43.5px;
+	display:block;
+	float:left;
+}
+
+
+
+
+

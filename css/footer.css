@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+#ftpra{
+	width:1200px;
+	margin:50px auto;
+	height:112px;
+}
+#ftpra a{
+	color:#fff;
+	display:block;
+}
+#ftpra a .midos{
+	color:#000;
+}
+#ftpra a img{
+	margin:25px 40px;
+	float:left;
+}
+#ftpra a span{
+	float:right;
+	font-size:18px;
+	margin:43px 40px;
+}
+#ftpra .left{
+	background:#2aad6f;
+	width:384.483px;
+	height:112px;
+	float:left;
+}
+#ftpra .mid{
+	background:rgb(237, 237, 237);
+	width:384.483px;
+	height:112px;
+	float:left;
+	margin-left:10px;
+}
+#ftpra .right{
+	margin-left:10px;
+	width:350.483px;
+}
+#footer-nav .navz{
+	width:1200px;
+	margin:0 auto;
+}
+#footer-nav .navz .navzl{
+	float:left;
+	margin-right:14%;
+}
+#footer-nav .navz .navzl a{
+	color:#2aad6f;
+	font-size:15px;
+	font-weight:bold;
+	display:block;
+}
+#footer-nav .navz .navzl .geli{
+	height:24px;
+	display:block;
+}
+#footer-nav .navz .navzl ul li a{
+	color:#7b7b7b;
+	font-size:0.9375rem;
+	font-weight:normal;
+	font-size:12px;
+	padding-bottom:8px;
+}
+#footer-tools{
+	height:120px;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	margin-top:20px;
+}
+#footer-tools .warpper{
+	width:1200px;
+	margin:0 auto;
+}
+#footer-tools .warpper p{
+	padding-top:10px;
+	width:588px;
+	height:44px;
+	float:left;
+}
+#footer-tools .warpper span{
+	color:#7b7b7b;
+	float:left;
+	line-height:44px;
+}
+#footer-tools .warpper p{
+	width:588.75px;
+}
+#footer-tools .warpper a {
+	color:#7b7b7b;
+	float:left;
+	line-height:44px;
+	margin-left:7px;
+}
+#footer-tools .warpper p .icon{
+	display:block;
+	height:44px;
+	width:44px;	
+	background:#2aad6f;
+	border-radius:10%;
+}
+#footer-tools .warpper .icon:hover{
+	background:#47b488;
+}
+#footer-tools .warpper .icon .weibo{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -129px -241px;
+	height:25px;
+	width:25px;
+	margin:7px 0 0 9.5px;
+}
+#footer-tools .warpper .icon .weixin{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -128px -350px;
+	height:25px;
+	width:25px;
+	margin:7px 0 0 9.5px;
+}
+#footer-tools .warpper .text{
+	margin-left:25px;
+}
+#footer-tools .warpper .icon .weixin .wx-float {
+    position:absolute;
+    top:-130px !important;
+    left:-40px !important;
+    width:120px !important;
+    height:120px !important;
+    max-width:120px !important;
+}
+#footer-tools .ser{
+	float:left;
+	height:120px;
+	width:560px;
+}
+#footer-tools .ser .online{
+	margin-top:23px;
+	height:80px;
+	width:280px;
+	float:left;
+}
+#footer-tools .ser .online .bg{
+	height:67px;
+	width:67px;
+	background:#2aad6f;
+	border-radius:50%;
+	float:left;
+}
+#footer-tools .ser .online .bg .icon{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -420px -791px;
+	height:50px;
+	width:67px;
+	margin-top:8.5px;
+	display:block;
+}
+#footer-tools .ser  .text{
+	margin-left:15px;
+	float:left;
+	height:80px;
+	width:150px;
+	font-size:18.75px;
+	<!--zheli--->
+}
+#footer-tools .ser  .text span{
+	color:#2aad6f;
+	height:20px;
+}
+#footer-tools .ser  .text .textol{
+	height:27px;
+	width:150px;
+}
+#footer-tools .ser .online .text .ic{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -194px -695px;
+	height:20px;
+	width:10px;
+	margin:8px 0 0 5px;
+}
+#footer-tools .ser .text p{
+	font-size:14px;
+	color:rgb(57, 57, 57);
+	margin:0;
+	padding:0;
+	height:21.5px;
+	width:145px;
+}
+#footer-tools .ser .tel{
+	height:67px;
+	width:280px;
+	float:left;
+	margin-top:23px;
+}
+#footer-tools .ser .tel .telbg{
+	height:67px;
+	width:67px;
+	background:#2aad6f;
+	border-radius:50%;
+	float:left;
+}
+#footer-tools .ser .tel .telbg .telf{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -417px -1px;
+	height:67px;
+	width:67px;
+}
+#footer-tools .ser .tel p{
+	margin-top:10px;
+}
+#footer-info{
+	height:88px;
+}
+#footer-info .wrapper{
+	height:40px;
+	width:1200px;
+	margin:0 auto;
+}
+#footer-info .wrapper a,#footer-info .wrapper p{
+	float:left;
+	color:rgb(123, 123, 123);
+	font-size: 12.1833px;
+	display:block;
+}
+#footer-info .wrapper a{
+	margin:30px 0 0 15px;
+}
+#footer-info .wrapper p{
+	margin:30px 0 0 0;
+}
+

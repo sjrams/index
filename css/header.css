@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+body,div,ul,li,a{
+	margin:0px;padding:0px;list-style-type:none;text-decoration:none;
+	
+}
+#nav{
+	height:35px;
+	background:#009B72;
+}
+
+.jz{
+	width:1200px;
+	margin:0 auto;
+	line-height:35px;
+	
+}
+
+.gi{
+	float:left;
+	
+	background:url(images/1.png) no-repeat;
+}
+
+.gi a{	
+	padding:0 20px;
+	height:35px;
+	color:#fff;
+	
+	font-size:13px;	
+	display: inline-block;
+    vertical-align: top;
+	letter-spacing: normal;
+}
+
+.gi a:hover{
+	background:#54A074;
+}
+
+#search{
+	float:right;
+	
+}
+#search a{
+	display:block;
+	height:35px;
+	width:58px;
+}
+#search a:hover{
+	background:#54A074;
+}
+#search .searchimg{
+	background:url(../images/sprite-icons.svg)no-repeat;
+	background-position: -129px -129px;
+	height:16px;
+	width:18px;
+	float:left;
+	margin:9.5px 0 0 20px;
+}
+#nav1{
+	float:right;
+}
+
+#bannar{
+	height:80px;
+	clear:both;
+}
+
+#logo{
+	height:31px;
+	width:190px;
+	padding-top:26px;
+	float:left;
+}
+#nav2{
+	float:right;
+	line-height:80px;
+}
+#bannar ul li{
+	float:left;
+	margin:0 20px;
+}
+#bannar a:hover{
+	cursor:pointer;
+}
+
+#nav2 ul li a{
+	color:#7b7b7b;
+}
+
+#nav2 ul li a:hover{
+	color:#393939;
+}
+
+#nav2 .diyi{
+	color:#393939;
+	border-bottom: 2px solid #2aad6f;
+	padding: 4px 2px;
+}
